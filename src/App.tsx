@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import liTexto from './assets/li_texto.svg'
 import ilLogo from './assets/li_solutions_logoblanco.svg'
@@ -8,8 +8,7 @@ import './liCSS.css'
 import  PresentationB from './Presentasion'
 import FondoOnda from './FondoOnda'
 
-function App() {
-  const [count, setCount] = useState(0)
+function App() {  
   const [mostrarPresentacion, setMostrarPresentacion] = useState(false);
   return (
     <>
