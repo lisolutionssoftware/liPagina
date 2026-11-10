@@ -9,7 +9,7 @@ export default function FondoOnda({ children }: { children?: ReactNode }) {
         preserveAspectRatio="none"
         aria-hidden="true"
       >
-        <path d="M0,150 C200,200 470,250 740,210 C950,160 1190,140 1450,210 L1510,320 L0,330 Z" />
+        <path d="M0,180 C100,200 400,250 720,210 C940,170 1190,180 1450,210 L1510,370 L0,330 Z" />
       </svg>
 
       <div className="fondo-onda__contenido">{children}</div>

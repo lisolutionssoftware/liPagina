@@ -1,4 +1,4 @@
-import ilLogo from './assets/li_solutions_logoblanco.svg'
+import ilLogo from './assets/li_solutions_logoDegradado.svg'
 
 
 function PresentationB(){

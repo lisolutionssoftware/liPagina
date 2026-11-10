@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="281" height="281" viewBox="0 0 281 281">
+  <defs>
+    <linearGradient id="linear-gradient-1" x1="-11.473" y1="-9.153" x2="162.769" y2="153.425" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d4ff"/>
+      <stop offset="0.3894" stop-color="#006a80" data-vc-midpoint="0.3894"/>
+      <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="50.1" y1="15.8" x2="173.366" y2="59.558" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#078dff"/>
+      <stop offset="0.48" stop-color="#006eea"/>
+      <stop offset="1" stop-color="#0647a8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="50.1" y1="143.8" x2="133.528" y2="212.239" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#061c46"/>
+      <stop offset="1" stop-color="#001d50"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="186.8" y1="98.8" x2="257.085" y2="142.728" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#061b43"/>
+      <stop offset="1" stop-color="#00275d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="64.2" y1="157.4" x2="206.244" y2="232.641" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#04b9ed"/>
+      <stop offset="0.45" stop-color="#078dff"/>
+      <stop offset="1" stop-color="#0783f2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="186.2" y1="40" x2="234.8" y2="88.6" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#079dff"/>
+      <stop offset="1" stop-color="#0068e8"/>
+    </linearGradient>
+  </defs>
+  <title>li_solutions_logo.svg</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g>
+      <path d="M8.552 6.842 C81.346 -66.222 200.053 -67.177 272.448 6.842 C344.477 80.488 341.324 198.424 267.561 269.76 C195.347 339.597 80.387 340.527 8.552 269.76 C-64.821 197.478 -63.86 79.523 8.552 6.842 Z" fill="url(#linear-gradient-1)" stroke="#000000" stroke-miterlimit="10"/>
+    </g>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <path d="M119.5 15.8 L119.5 143.8 L50.1 211.3 L50.1 94.1 C50.1 83.9 54.1 75.4 61.5 68.8 Z" fill="url(#linear-gradient-2)"/>
+    <path d="M119.5 143.8 L119.5 195.2 L64.2 237.8 C55.2 232.8 50.1 222.9 50.1 211.3 Z" fill="url(#linear-gradient-3)"/>
+    <polygon points="186.8,98.8 235.4,98.8 235.4,185.2 186.8,157.4" fill="url(#linear-gradient-4)"/>
+    <path d="M119.5 195.2 L186.8 157.4 L235.4 185.2 L151.5 234.1 C146.8 236.9 141.8 238.2 135.8 238.2 L80.4 238.2 C73.8 238.2 68.2 237.1 64.2 237.8 Z" fill="url(#linear-gradient-5)"/>
+    <circle cx="210.5" cy="64.3" r="24.3" fill="url(#linear-gradient-6)"/>
+  </g>
+</svg>

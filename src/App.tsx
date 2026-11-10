@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import liTexto from './assets/li_texto.svg'
 import ilLogo from './assets/li_solutions_logoblanco.svg'
 import Lilogo from './Lilogo'
+import LilogoDegradado from './assets/li_solutions_logoDegradado.svg'
 import './App.css'
 import './liCSS.css'
 import  PresentationB from './Presentasion'
@@ -12,6 +13,7 @@ function App() {
   const [mostrarPresentacion, setMostrarPresentacion] = useState(false);
   return (
     <>
+
       <section id="center">     
         <FondoOnda>           
         {<div className='centrado' >
@@ -48,7 +50,7 @@ function App() {
           <ul>
             <li>
               <a target="_blank" onClick={() => setMostrarPresentacion(!mostrarPresentacion)}>                
-                <img className="logo" src={ilLogo} alt="" />
+                <img className="logo" src={LilogoDegradado} alt="" />
                 Acerca de nosotros.
               </a>
               {mostrarPresentacion && <PresentationB />}              
