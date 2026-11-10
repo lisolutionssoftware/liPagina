@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import liTexto from './assets/li_texto.svg'
-import ilLogo from './assets/li_solutions_logoblanco.svg'
 import Lilogo from './Lilogo'
 import LilogoDegradado from './assets/li_solutions_logoDegradado.svg'
 import './App.css'
