@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1{font-family:Montserrat, sans-serif;font-size:111.753px;font-weight:600;fill:#08182e;letter-spacing:3.911px;font-kerning:none}
+      .cls-2{font-family:&apos;Source Sans 3&apos;, sans-serif;font-size:168px;fill:#079dff}
+      .cls-3{font-family:Montserrat, sans-serif;font-size:169px;font-weight:600;fill:#08182e;letter-spacing:5.915px;font-kerning:none}
+      .cls-4{font-family:Montserrat, sans-serif;font-size:168px;font-weight:600;fill:#08182e;letter-spacing:1.68px;font-kerning:none}
+      .cls-5{fill:#079dff}
+      .cls-6{fill:url(#linear-gradient-1)}
+      .cls-7{fill:url(#linear-gradient-2)}
+      .cls-8{fill:url(#linear-gradient-3)}
+      .cls-9{fill:url(#linear-gradient-4)}
+      .cls-10{fill:url(#linear-gradient-5)}
+    </style>
+    <linearGradient id="linear-gradient-1" x1="100.276" y1="301.281" x2="313.132" y2="367.548" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#078dff"/>
+      <stop offset="0.48" stop-color="#006eea"/>
+      <stop offset="1" stop-color="#0647a8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="100.276" y1="546.801" x2="254.986" y2="658.103" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#061c46"/>
+      <stop offset="1" stop-color="#001d50"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="330.23" y1="460.485" x2="456.662" y2="529.785" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#061b43"/>
+      <stop offset="1" stop-color="#00275d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="123.994" y1="572.887" x2="375.671" y2="689.802" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#04b9ed"/>
+      <stop offset="0.45" stop-color="#078dff"/>
+      <stop offset="1" stop-color="#0783f2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="329.221" y1="347.699" x2="421.644" y2="428.754" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#079dff"/>
+      <stop offset="1" stop-color="#0068e8"/>
+    </linearGradient>
+  </defs>
+  <title>li_texto</title>
+  <g id="Texto">
+    <text transform="matrix(0.954 0 0 1.512 578.353 614.265)" x="0" y="0" xml:space="preserve" class="cls-1"><tspan x="0" y="0" textLength="110.188" lengthAdjust="spacingAndGlyphs">li</tspan></text>
+    <text transform="matrix(1 0 0 1 663.067 612.414)" x="0" y="0" xml:space="preserve" class="cls-2"><tspan x="0" y="0">.</tspan></text>
+    <text transform="matrix(1 0 0 1 696.795 613.322)" x="0" y="0" xml:space="preserve" class="cls-3"><tspan x="0" y="0" textLength="607.825" lengthAdjust="spacingAndGlyphs">solutions</tspan></text>
+    <text transform="matrix(1 0 0 1 1286.322 611.332)" x="0" y="0" xml:space="preserve" class="cls-2"><tspan x="0" y="0">.</tspan></text>
+    <text transform="matrix(1 0 0 1 1323.565 612.639)" x="0" y="0" xml:space="preserve" class="cls-4"><tspan x="0" y="0" textLength="545.11" lengthAdjust="spacingAndGlyphs">software</tspan></text>
+  </g>
+  <g id="Divisor">
+    <g id="trazo" data-vc-layer="sublayer">
+      <rect x="519.815" y="424.223" width="2.569" height="246.772" class="cls-5"/>
+    </g>
+  </g>
+  <g id="Logo">
+    <path d="M217.019 301.281 L217.019 546.801 L100.276 676.274 L100.276 451.47 C100.276 431.905 107.004 415.601 119.453 402.941 Z" class="cls-6"/>
+    <path d="M217.019 546.801 L217.019 645.392 L123.994 727.104 C108.855 717.514 100.276 698.524 100.276 676.274 Z" class="cls-7"/>
+    <polygon points="330.23,460.485 411.984,460.485 411.984,626.211 330.23,572.887" class="cls-8"/>
+    <path d="M217.019 645.392 L330.23 572.887 L411.984 626.211 L270.849 720.007 C262.943 725.378 254.532 727.872 244.439 727.872 L151.246 727.872 C140.143 727.872 130.723 725.762 123.994 727.104 Z" class="cls-9"/>
+    <ellipse cx="370.098" cy="394.31" rx="40.877" ry="46.61" class="cls-10"/>
+  </g>
+</svg>

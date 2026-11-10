@@ -1,0 +1,14 @@
+export default function Logo() {
+  return (
+    <svg className="lilogo" viewBox="0 0 281 281" xmlns="http://www.w3.org/2000/svg" height={281} width={281}>
+      {          
+        <g id="Layer_1" data-name="Layer 1">
+            <path d="M119.5 15.8 L119.5 143.8 L50.1 211.3 L50.1 94.1 C50.1 83.9 54.1 75.4 61.5 68.8 Z" fill="currentColor"/>
+            <polygon points="187.8,97.8 236.4,97.8 236.4,184.2 187.8,156.4" fill="currentColor"/>
+            <path d="M119.5 195.2 L186.8 157.4 L235.4 185.2 L151.5 234.1 C146.8 236.9 141.8 238.2 135.8 238.2 L80.4 238.2 C73.8 238.2 68.2 237.1 64.2 237.8 Z" fill="currentColor"/>
+            <circle cx="211.5" cy="64.3" r="24.3" fill="currentColor"/>
+        </g>
+      }
+    </svg>
+  )
+}

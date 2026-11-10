@@ -1,33 +1,40 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
+import React, { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+import liTexto from './assets/li_texto.svg'
+import ilLogo from './assets/li_solutions_logoblanco.svg'
+import Lilogo from './Lilogo'
 import './App.css'
+import './liCSS.css'
+import  PresentationB from './Presentasion'
+import FondoOnda from './FondoOnda'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  const [mostrarPresentacion, setMostrarPresentacion] = useState(false);
   return (
     <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
+      <section id="center">     
+        <FondoOnda>           
+        {<div className='centrado' >
+          <table>
+            <tbody>
+              <tr>
+                <div className='lilogoDiv'>
+                  <Lilogo/>
+                </div>
+              </tr>        
+              <tr>
+                <div className='liTextoBlanco'><img src={liTexto} alt="li Solutions" className='framework' height={250}/></div>                
+              </tr>
+              <tr>
+                <p>
+                  Soluciones a tu alcance.
+                </p>
+              </tr>                                
+            </tbody>
+          </table>
+        </div>      }          
+        </FondoOnda>
       </section>
 
       <div className="ticks"></div>
@@ -37,19 +44,20 @@ function App() {
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
+          <h2>Conocenos</h2>
+          <p>Conoce mas acerca de nosotros</p>
           <ul>
             <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Mirame Vite
+              <a target="_blank" onClick={() => setMostrarPresentacion(!mostrarPresentacion)}>                
+                <img className="logo" src={ilLogo} alt="" />
+                Acerca de nosotros.
               </a>
+              {mostrarPresentacion && <PresentationB />}              
             </li>
             <li>
-              <a href="https://react.dev/" target="_blank">
+              <a href="" target="_blank">
                 <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
+                Fundadores
               </a>
             </li>
           </ul>
